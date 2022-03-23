@@ -68,7 +68,7 @@ section > h5 {
 }
 
 section > h2 {
-  color: var(--color-primary);
+  color: var(--color-primary-variant);
   margin-bottom: 3rem;
 }
 
@@ -125,4 +125,4 @@ img {
   section > h2 {
     margin-bottom: 2rem;
   }
-} ;
+} 

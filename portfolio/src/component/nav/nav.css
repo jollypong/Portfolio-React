@@ -28,3 +28,12 @@ nav a.active {
   background: var(--color-light);
   color: var(--color-dark);
 }
+
+@media screen and (max-width: 600px) {
+  nav {
+    flex-direction: row;
+    left: 0%; 
+    justify-content: center;
+    top: 1rem;
+  }
+}
