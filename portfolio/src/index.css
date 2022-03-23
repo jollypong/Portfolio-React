@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 
 * {
-  margin: 0; 
+  margin: 0;
   padding: 0;
   border: 0;
   outline: 0;
@@ -35,12 +35,9 @@ html {
 body {
   margin: 0;
   font-family: "Raleway", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   background: var(--color-bg);
   color: var(--color-dark);
   line-height: 1.7;
-  background-image: url(../src/assets/images/bg.jpg);
 }
 
 .container {
@@ -57,7 +54,7 @@ h5 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 section {
@@ -81,29 +78,37 @@ a {
 }
 
 a:hover {
-  color: var(--color-light);
+  color: black;
 }
 
 .btn {
   width: max-content;
   display: inline-block;
   color: var(--color-dark);
-  padding: 0.75rem, 2.5rem;
+  background-color: var(--color-primary);
+  padding: 0.7rem;
   border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid var(--color-primary-variant);
   transition: var(--transition);
 }
 
-.btn:hover {
-  background: var(--color-dark);
-  color: var(--color-white);
+.btn-primary {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-light);
+  background-color: var(--color-dark);
+  padding: 0.7rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
   border-color: transparent;
+  transition: var(--transition);
 }
 
-.btn:primary {
+.btn:hover {
   background: var(--color-bg-variant);
-  color: var(--color-bg);
+  color: var(--color-white);
+  border-color: transparent;
 }
 
 img {
@@ -112,18 +117,7 @@ img {
   object-fit: cover;
 }
 
-/*tablet media-query medium screensize*/
-@media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-med);
-  }
-  section {
-    margin-top: 6rem;
-  }
-}
-
 /*phone media-query small screensize*/
-
 @media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
@@ -131,4 +125,4 @@ img {
   section > h2 {
     margin-bottom: 2rem;
   }
-}
+} ;
