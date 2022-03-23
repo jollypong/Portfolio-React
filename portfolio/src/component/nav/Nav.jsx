@@ -2,7 +2,7 @@ import React from "react";
 import "./nav.css";
 import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
-import WorkHistoryIcon from "@mui/icons-material/WorkHistory";
+// import WorkHistoryIcon from "@mui/icons-material/WorkHistory";
 import ConstructionIcon from "@mui/icons-material/Construction";
 import CollectionsIcon from "@mui/icons-material/Collections";
 import PermContactCalendarIcon from "@mui/icons-material/PermContactCalendar";
@@ -20,10 +20,10 @@ const Nav = () => {
       onClick={() => setActiveNav("#about")}>
         <InfoIcon />
       </a>
-      <a href="#experience" className={activeNav === '#experience' ? 'active' : ''}
+      {/* <a href="#experience" className={activeNav === '#experience' ? 'active' : ''}
       onClick={() => setActiveNav("#experience")}>
         <WorkHistoryIcon />
-      </a>
+      </a> */}
       <a href="#skills" className={activeNav === '#skills' ? 'active' : ''}
       onClick={() => setActiveNav("#skills")}>
         <ConstructionIcon />

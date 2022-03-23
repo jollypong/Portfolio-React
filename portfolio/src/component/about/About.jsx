@@ -21,13 +21,13 @@ const About = () => {
             <h5>Veteran</h5>
             <small>Ex-Military (Canadian Armed Forces)</small>
             <p>
-              <span>"</span> Hello, My name is Joe, I'm an aspiring full stack developer
-              currently in training. Having spent the last 7 years in healthcare
-              as a paramedic and a military medical technician, I jump quick to
-              excitement but also know when to endure long hardwork.
+              <span>"</span> Hello, My name is Joe, I'm an aspiring full stack
+              developer currently in training. Having spent the last 7 years in
+              healthcare as a paramedic and a military medical technician, I
+              jump quick to excitement but also know when to endure long
+              hardwork.
             </p>
-            <br>
-            </br>
+            <br></br>
             <p>
               As much was helping the sick and wounded an exciting and rewarding
               career, I have decided to diverge my path and reach for my
@@ -36,9 +36,6 @@ const About = () => {
             </p>
           </article>
         </div>
-        <a href="#experience" className="scroll_down">
-          <img src={ArrowDown} alt="" />
-        </a>
       </div>
     </section>
   );

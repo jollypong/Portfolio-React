@@ -3,8 +3,9 @@ import Header from "./component/header/Header";
 import Nav from "./component/nav/Nav";
 import About from "./component/about/About";
 import Skills from "./component/skills/Skills";
-import Experience from "./component/experieince/Experience";
+// import Experience from "./component/experieince/Experience";
 import Projects from "./component/projects/Projects";
+import Contact from "./component/contact/Contact"; 
 import Footer from "./component/footer/Footer";
 
 const App = () => {
@@ -14,8 +15,9 @@ const App = () => {
       <Nav/>
       <About/>
       <Skills/>
-      <Experience/>
+      {/* <Experience/> */}
       <Projects/>
+      <Contact/>
       <Footer/>
     </>
   );
