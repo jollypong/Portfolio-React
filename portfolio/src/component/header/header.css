@@ -1,8 +1,7 @@
 header {
   height: 100vh;
-  padding-top: 3rem;
-  overflow: hidden;
-  background-image: url(../../assets/images/bg.jpg);
+  padding-top: 5%;
+  background-image: url(../../assets/images/background/bg.jpg);
   background-size: cover;
 }
 
@@ -14,11 +13,11 @@ header {
 
 /*===============headerbuttons=================*/
 .headerButton {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
   display: flex;
-  gap: 1.2rem;
   justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  gap: 2%;
 }
 
 /*===============SocialMedia=================*/
@@ -26,50 +25,51 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.8rem;
+  gap: 40px;
   position: absolute;
   left: 0;
-  bottom: 5rem;
-  margin-left: 1rem;
+  bottom: 5%;
+  margin-left: 15px;
 }
 
 .socialMedia::after {
   content: "";
   width: 1px;
-  height: 3rem;
+  height: 40px;
   background: var(--color-dark);
 }
 
 /*=============profilePicture===================*/
 .profilePicture {
   background: var(--color-light);
-  width: 25rem;
-  height: 32rem;
+  width: 420px;
+  height: 530px;
   position: absolute;
   left: calc(50%);
   transform: translateX(-50%);
-  border-radius: 12rem;
+  border-radius: 45%;
   overflow: hidden;
-  padding: 1.5rem 1rem;
-}
-
-/*=============scrollDown===================*/
-.scroll_down {
-  position: absolute;
-  height: 3rem;
-  width: 3rem;
-  left: calc(50%);
-  transform: translateX(-50%);
-  bottom: 2rem;
+  padding: 20px 20px; 
 }
 
 /*phone media-query small screensize*/
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    height: auto; 
+    padding-top: 20%; 
   }
+
+  .header_container{
+    height: 100vh; 
+  }
+
   .socialMedia,
   .scroll_down {
     display: none;
   }
-} 
+  .profilePicture{
+    margin-top: 10%; 
+    height: auto; 
+    width: 60%; 
+  }
+}

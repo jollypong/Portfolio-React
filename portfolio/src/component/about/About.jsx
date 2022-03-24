@@ -1,15 +1,14 @@
 import React from "react";
 import "./about.css";
-import profilePic2 from "../../assets/images/profile2.jpg";
+import profilePic2 from "../../assets/images/profile/profile2.jpg";
 import MilitaryTechIcon from "@mui/icons-material/MilitaryTech";
-import ArrowDown from "../../assets/images/arrow-down.png";
 
 const About = () => {
   return (
     <section id="about">
       <h5>My Story</h5>
       <h2>About Me</h2>
-      <div className="container about_container">
+      <div className="about_container">
         <div className="about_me">
           <div className="profile2">
             <img src={profilePic2} alt="" />
@@ -32,7 +31,7 @@ const About = () => {
               As much was helping the sick and wounded an exciting and rewarding
               career, I have decided to diverge my path and reach for my
               long-sought dream of becoming a programmer. I look forward to
-              joining you and your company's adventure.<span>"</span>
+              joining you and your company's adventure.<span> "</span>
             </p>
           </article>
         </div>
