@@ -12,24 +12,25 @@
   align-content: center;
 }
 
-.portfolio_items {
-  background: var(--color-bg-variant);
-  padding: 10px;
+.portfolio_item {
+  background: var(--color-primary-variant);
   border-radius: 20px;
   border: 1px solid transparent;
+  padding: 10px;
+  margin: 10px;  
 }
 
-.portfolio_items:hover {
+.portfolio_item:hover {
   border-color: var(--color-primary-variant);
-  background: transparent;
+  background: var(--color-primary);
 }
 
 .portfolio_item-image {
-  width: 30vw;
-  height: 300px;
+  width: 29vw;
+  height: 200px;
   border-radius: 20px;
   overflow: hidden;
-  margin: 20px;
+  margin: 0 15px 0 15px;
   justify-content: center;
   align-content: center;
 }
@@ -43,7 +44,7 @@
   display: flex;
   justify-content: center;
   gap: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
 }
 
 /*==========phone media-query small screensize=======*/
