@@ -9,7 +9,7 @@ const Skills = () => {
     <section id="skills">
       <h5>What have I learned?</h5>
       <h2>My Skills</h2>
-      <div className="skills_container">
+      <div className="container skills_container">
         <div className="frontend">
           <h3>Frontend Development</h3>
           <div className="skillBox">
@@ -76,28 +76,6 @@ const Skills = () => {
                 <StarRateIcon />
                 <StarHalfIcon />
                 <h4>Git</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
-            <article className="skill_details">
-              <div className="rating">
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <h4>Problem Solving</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
-            <article className="skill_details">
-              <div className="rating">
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarBorderIcon />
-                <h4>Heroku</h4>
                 <small>Experienced</small>
               </div>
             </article>
@@ -171,17 +149,6 @@ const Skills = () => {
                 <StarBorderIcon />
                 <h4>Jest/TDD</h4>
                 <small>Intermediate</small>
-              </div>
-            </article>
-            <article className="skill_details">
-              <div className="rating">
-                <StarRateIcon />
-                <StarBorderIcon />
-                <StarBorderIcon />
-                <StarBorderIcon />
-                <StarBorderIcon />
-                <h4>Python</h4>
-                <small>Developing</small>
               </div>
             </article>
           </div>

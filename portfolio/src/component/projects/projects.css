@@ -1,15 +1,12 @@
 #projects {
-  padding-top: 50px;
-  height: 100vh;
+  overflow: hidden;
+  padding-top: 40px; 
 }
 
 .portfolio_container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: auto;
-  justify-content: center;
-  align-content: center;
+  display: grid; 
+  grid-template-columns: 33% 33% 33%;
+  row-gap: 1%; 
 }
 
 .portfolio_item {
@@ -21,12 +18,14 @@
 }
 
 .portfolio_item:hover {
-  border-color: var(--color-primary-variant);
-  background: var(--color-primary);
+  border-color: var(--color-primary-);
+  background: darkgrey;
 }
 
 .portfolio_item-image {
-  width: 29vw;
+  display: flex; 
+  justify-content: center;
+  width: auto; 
   height: 200px;
   border-radius: 20px;
   overflow: hidden;
@@ -38,6 +37,7 @@
 .portfolio_item h3 {
   margin: 20px;
   text-align: center;
+  font-weight: 800; 
 }
 
 .buttonContainer {
@@ -48,13 +48,16 @@
 }
 
 /*==========phone media-query small screensize=======*/
-@media screen and (max-width: 600px) {
-  #projects {
-    height: auto;
+@media screen and (max-width: 1024px) {
+  .portfolio_container{
+    grid-template-columns: 50% 50%;
+    width: var(--container-width-md);
   }
+}
 
+@media screen and (max-width: 600px) {
   .portfolio_container {    
-    flex-direction: column;
-    width: 90%; 
+    grid-template-columns: 100%; 
+    width: var(--container-width-sm);
   }
 }

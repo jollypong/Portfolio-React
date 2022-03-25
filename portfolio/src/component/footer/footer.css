@@ -1,0 +1,13 @@
+footer{
+    background: var(--color-dark); 
+    text-align: center; 
+    color: var(--color-light);
+}
+
+.footer_logo {
+    color: var(--color-light);
+    font-size: 200%;
+    font-weight: 400; 
+    margin-bottom: 20px; 
+    display: inline-block;
+}

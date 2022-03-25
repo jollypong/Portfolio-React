@@ -12,7 +12,7 @@ const Projects = () => {
     <section id="projects">
       <h5>My Projects</h5>
       <h2>Portfolio</h2>
-      <div className="portfolio_container">
+      <div className="container portfolio_container">
         <div className="portfolio_item">
           <div className="portfolio_item-image">
             <img src={Project1} alt="" />
