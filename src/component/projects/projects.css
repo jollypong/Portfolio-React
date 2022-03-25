@@ -18,7 +18,7 @@
 }
 
 .portfolio_item:hover {
-  border-color: var(--color-primary-);
+  border: 3px dotted blanchedalmond;
   background: darkgrey;
 }
 
