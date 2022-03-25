@@ -20,21 +20,19 @@ const data = [
     image: Project2,
     title: "Gaggle Chat Service",
     github: "https://github.com/jollypong/Gaggle",
-    demo: "https://gagglechat.herokuapp.com/",
+    demo: "https://gagglechat2.herokuapp.com/",
   },
   {
     id: 3,
     image: Project3,
     title: "Quacker - Social Media Framework",
-    github: "https://github.com/jollypong/Gaggle",
-    demo: "",
+    github: "https://github.com/jollypong/Quacker",
   },
   {
     id: 4,
     image: Project4,
     title: "Who Works Where? - CLI-based CMS",
     github: "https://github.com/jollypong/Who-Works-Where",
-    demo: "",
   },
   {
     id: 5,
