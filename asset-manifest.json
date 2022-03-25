@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Portfolio-React/static/css/main.7cd5e5af.css",
+    "main.js": "/Portfolio-React/static/js/main.33a1c943.js",
+    "static/media/profile2.jpg": "/Portfolio-React/static/media/profile2.1a265a14a73f5f74b818.jpg",
+    "static/media/profilepic.png": "/Portfolio-React/static/media/profilepic.080774392d5058e1c543.png",
+    "static/media/resume.pdf": "/Portfolio-React/static/media/resume.62f5c7fcf24e69241544.pdf",
+    "static/media/weatherDashboard.png": "/Portfolio-React/static/media/weatherDashboard.d827a06d79dc47206382.png",
+    "static/media/quacker.png": "/Portfolio-React/static/media/quacker.746a484acaee56a8f803.png",
+    "static/media/bgHeader.jpg": "/Portfolio-React/static/media/bgHeader.5b69da4c23a811ab1925.jpg",
+    "static/media/gaggle.png": "/Portfolio-React/static/media/gaggle.554b4dba705a6b8fd10e.png",
+    "static/media/salbotChat.png": "/Portfolio-React/static/media/salbotChat.6c40150fd4771d96d741.png",
+    "static/media/bate.png": "/Portfolio-React/static/media/bate.0169440dbbd3f59e3d48.png",
+    "static/media/whoWorksWhere.png": "/Portfolio-React/static/media/whoWorksWhere.04291aa2091768a118f5.png",
+    "index.html": "/Portfolio-React/index.html",
+    "main.7cd5e5af.css.map": "/Portfolio-React/static/css/main.7cd5e5af.css.map",
+    "main.33a1c943.js.map": "/Portfolio-React/static/js/main.33a1c943.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cd5e5af.css",
+    "static/js/main.33a1c943.js"
+  ]
+}
