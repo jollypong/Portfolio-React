@@ -25,13 +25,13 @@ const data = [
   {
     id: 3,
     image: Project3,
-    title: "Quacker - Social Media Framework",
+    title: "Quacker - Social Media Framework (Backend Only, No Demo)",
     github: "https://github.com/jollypong/Quacker",
   },
   {
     id: 4,
     image: Project4,
-    title: "Who Works Where? - CLI-based CMS",
+    title: "Who Works Where? - CLI-based CMS (Backend Only, No Demo)",
     github: "https://github.com/jollypong/Who-Works-Where",
   },
   {
