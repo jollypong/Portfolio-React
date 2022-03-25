@@ -20,11 +20,10 @@ const About = () => {
             <h5>Veteran</h5>
             <small>Ex-Military (Canadian Armed Forces)</small>
             <p>
-              <span>"</span> Hello, My name is Joe, I'm an aspiring full stack
-              developer currently in training. Having spent the last 7 years in
-              healthcare as a paramedic and a military medical technician, I
-              jump quick to excitement but also know when to endure long
-              hardwork.
+              <span>"</span> Hello, My name is Joe, I'm an aspiring junior full stack
+              developer. 
+              Having spent the last 7 years in healthcare as a paramedic and a military medical technician, 
+              I am very excited for this transition and can't wait to show the world what I can do! 
             </p>
             <br></br>
             <p>

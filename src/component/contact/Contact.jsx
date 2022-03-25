@@ -10,29 +10,24 @@ const Contact = () => {
   emailjs.init("9765n6hH7u3RJlpVL");
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm(
-        "service_md69n4f",
-        "template_llqil1r",
-        form.current
-      )
-      .then(
-        (response) => {
-          alert("Your Email has been sent.");
-          console.log("SUCCESS!", response.status, response.text);
-        },
-        (err) => {
-          alert("Oops! Something went wrong.");
-          console.log("FAILED...", err);
-        }
-      );
+    emailjs.sendForm("service_md69n4f", "template_llqil1r", form.current).then(
+      (response) => {
+        alert("Your Email has been sent.");
+        console.log("SUCCESS!", response.status, response.text);
+      },
+      (err) => {
+        alert("Oops! Something went wrong.");
+        console.log("FAILED...", err);
+      }
+    );
   };
 
   return (
     <section id="contact">
       <section id="contact">
-        <h5>Get In Touch!</h5>
         <h2>Contact</h2>
-
+        <h4>Get In Touch!</h4>
+        <h5>Any Feedback?</h5>
         <div className="container contact_container">
           <div className="contactMethod">
             <article className="contactOption">
@@ -59,7 +54,6 @@ const Contact = () => {
               </a>
             </article>
           </div>
-          <h5>Any Feedback?</h5>
           <form ref={form} onSubmit={sendEmail}>
             <input
               type="text"

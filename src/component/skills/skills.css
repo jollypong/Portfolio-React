@@ -1,14 +1,14 @@
 #skills {
   background-color: aqua;
   overflow: hidden;
-  padding-top: 40px; 
-  padding-bottom: 40px; 
+  padding-top: 150px; 
 }
 
 .skills_container {
   display: grid;
   grid-template-columns: 50% 50%;
   text-align: center;
+  padding-bottom: 180px; 
 }
 
 .skills_container > div {
@@ -55,14 +55,16 @@
 /*==========phone media-query small screensize=======*/
 @media screen and (max-width: 1024px) {
   .skills_container {
-    grid-template-columns: 100%;
+    grid-template-columns: 80%;
     width: var(--container-width-md);
+    margin-left: 20%; 
     gap: 40px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .skills_container {
+    margin-left: 0%;
     grid-template-columns: 100%;
     align-items: center;
     width: var(--container-width-sm);
