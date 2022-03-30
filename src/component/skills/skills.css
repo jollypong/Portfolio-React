@@ -2,6 +2,7 @@
   background-color: aqua;
   overflow: hidden;
   padding-top: 150px; 
+  height: 100vh; 
 }
 
 .skills_container {

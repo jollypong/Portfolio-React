@@ -1,8 +1,5 @@
 import React from "react";
 import "./skills.css";
-import StarRateIcon from "@mui/icons-material/StarRate";
-import StarBorderIcon from "@mui/icons-material/StarBorder";
-import StarHalfIcon from "@mui/icons-material/StarHalf";
 
 const Skills = () => {
   return (
@@ -15,66 +12,36 @@ const Skills = () => {
           <div className="skillBox">
             <article className="skill_details">
               <div className="rating">
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarBorderIcon />
                 <h4>HTML</h4>
                 <small>Experienced</small>
               </div>
             </article>
             <article className="skill_details">
               <div className="rating">
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarBorderIcon />
                 <h4>CSS</h4>
                 <small>Experienced</small>
               </div>
             </article>
             <article className="skill_details">
               <div className="rating">
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarBorderIcon />
                 <h4>JS</h4>
                 <small>Intermediate</small>
               </div>
             </article>
             <article className="skill_details">
               <div className="rating">
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarBorderIcon />
                 <h4>React</h4>
                 <small>Intermediate</small>
               </div>
             </article>
             <article className="skill_details">
               <div className="rating">
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
                 <h4>Bootstrap</h4>
                 <small>Experienced</small>
               </div>
             </article>
             <article className="skill_details">
               <div className="rating">
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarHalfIcon />
                 <h4>Git</h4>
                 <small>Experienced</small>
               </div>
@@ -87,66 +54,36 @@ const Skills = () => {
           <div className="skillBox">
             <article className="skill_details">
               <div className="rating">
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarBorderIcon />
                 <h4>Node JS</h4>
                 <small>Intermediate</small>
               </div>
             </article>
             <article className="skill_details">
               <div className="rating">
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarBorderIcon />
                 <h4>Express JS</h4>
                 <small>Intermediate</small>
               </div>
             </article>
             <article className="skill_details">
               <div className="rating">
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarHalfIcon />
                 <h4>MySQL</h4>
                 <small>Experienced</small>
               </div>
             </article>
             <article className="skill_details">
               <div className="rating">
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarHalfIcon />
                 <h4>MongoDB</h4>
                 <small>Experienced</small>
               </div>
             </article>
             <article className="skill_details">
               <div className="rating">
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarHalfIcon />
-                <StarBorderIcon />
                 <h4>GraphQL</h4>
                 <small>Intermediate</small>
               </div>
             </article>
             <article className="skill_details">
               <div className="rating">
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarRateIcon />
-                <StarHalfIcon />
-                <StarBorderIcon />
                 <h4>Jest/TDD</h4>
                 <small>Intermediate</small>
               </div>
